@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.flex-container {
+    display: flex;
+}
+
+h1 {
+    font-size: 65px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.top-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('images/cow hut.jpg');
+    background-size: cover;
+    padding: 15%;
+    margin-bottom: 100px;
+    padding-top: 10%;
+}
+
+.top-banner-info {
+    width: 50%;
+}
+
+.top-banner-info h1 {
+    color: white;
+
+}
+
+.top-banner-info p {
+    color: white;
+    margin-bottom: 100px;
+
+}
+
+.link-btn {
+    padding: 20px 20px;
+    background-color: #EF233C;
+    color: white;
+    font-size: 18px;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+.link-btn:hover {
+    background-color: #b73343;
+    color: antiquewhite;
+}
+
+.lives-depend-information {
+    display: flex;
+}
+
+.lives-depend {
+    margin-left: 12%;
+    margin-right: 4%;
+    margin-bottom: 150px;
+}
+
+.half-width {
+    width: 50%;
+    padding: 2%;
+}
+
+.half-width video {
+    width: 88%;
+    border-radius: 20px;
+    margin-top: 26%;
+    margin-left: 7%;
+}
+
+.para-2 {
+    margin-bottom: 50px;
+}
+
+.lives-article {
+    padding-top: 10%;
+    width: 45%;
+}
+
+.half-width h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.half-width p {
+    font-size: 18px;
+}
+
+.survive {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-bottom: 150px;
+}
+
+.half-width img {
+    border-radius: 20px;
+}
+
+.survive-article {
+    padding-top: 5%;
+}
+
+.child-2 {
+    display: flex;
+    margin: 5%;
+
+}
+
+.child-2 img {
+    width: 20%;
+    height: 20%;
+    margin-right: 5%;
+    margin-top: 6%;
+}
+
+.live-boxes-title {
+    width: 45%;
+    text-align: center;
+    margin: 0 auto 5%;
+
+
+}
+
+.live-boxes-title h2 {
+    font-size: 40px;
+}
+
+.article-boxes {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    column-gap: 0px;
+}
+
+.child {
+    background-color: #FEF4F5;
+    border-radius: 15px;
+    margin-bottom: 22px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.grid-pic {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 10%;
+    margin-right: 7%;
+    margin-bottom: 5%;
+
+}
+
+.pictures {
+    width: 95%;
+    margin: auto;
+}
+
+.charity-info {
+    width: 68%;
+    text-align: center;
+    margin: auto;
+}
+
+.charity-hand {
+    margin-bottom: 10%;
+}
+
+.charity-info h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.charity-info p {
+    font-size: 17px;
+    margin-bottom: 100px;
+}
+
+.grid-zakat {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 8%;
+    margin-right: 2%;
+
+}
+
+.zakat-box {
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 15px;
+
+}
+
+.zakat-info {
+    padding: 20px;
+}
+
+.zakat-info p {
+    font-size: 18px;
+}
+
+.zakat-button {
+    color: red;
+    font-size: 20px;
+}
+
+footer {
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 2%;
+}
+
+
+footer h1 {
+    color: #EF233C;
+}
