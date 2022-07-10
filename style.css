@@ -174,7 +174,7 @@ p {
 }
 
 .charity-hand {
-    margin-bottom: 10%;
+    margin-bottom: 6%;
 }
 
 .charity-info h1 {
@@ -224,15 +224,112 @@ p {
     font-size: 20px;
 }
 
+.contact-us {
+    margin-bottom: 120px;
+    margin: 0 auto;
+}
+
 footer {
     font-family: 'Edu VIC WA NT Beginner', cursive;
     text-align: center;
     background-color: black;
     color: white;
-    padding: 2%;
+    padding: 2px;
 }
 
 
 footer h1 {
     color: #EF233C;
+}
+
+.contact-title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.form-container {
+    /* width: 45%; */
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5%;
+    margin-top: 5%;
+
+}
+
+.form-container label {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 11px;
+    margin-bottom: 10px;
+}
+
+.form-container input {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    outline: none;
+    /* border: 0;
+    border-bottom: 2px solid black; */
+    font-size: 18px;
+}
+
+.form-container select {
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    text-align: center;
+    width: 54%;
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+
+
+.form-container input:focus {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    outline: none;
+}
+
+.form-btn {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.form-container button {
+    height: 40px;
+    width: 140px;
+    margin-left: 25px;
+    margin-top: 15px;
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    border-radius: 7px;
+    border: 0;
+    color: white;
+    font-size: 20px;
+}
+
+.form-container button:hover {
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+}
+
+::placeholder {
+    font-size: 17px;
+}
+
+.form-pic {
+    display: flex;
+    width: 95%;
+    margin: auto;
+}
+
+.pic-width {
+    width: 50%;
+    margin-right: 5%;
+    margin-left: 2%;
+}
+
+.contact-pic img {
+    width: 100%;
+    margin-top: -6%;
 }
